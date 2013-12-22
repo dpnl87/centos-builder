@@ -8,4 +8,7 @@ Build a new box
 packer build centos.json
 ```
 
-
+Add the box to virtualbox
+```bash
+vagrant box add centos-6_5-64 centos-6_5-64.box
+```
