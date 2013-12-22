@@ -21,7 +21,7 @@
                 ["modifyvm", "{{.Name}}", "--memory", "1024"],
                 ["modifyvm", "{{.Name}}", "--cpus", "2"]
             ],
-            "vm_name": "centos-6.5-6_4-64"
+            "vm_name": "centos-6.5-64"
         }
     ],
     "provisioners": [
@@ -37,7 +37,7 @@
     "post-processors": [
         {
             "type": "vagrant",
-            "output": "centos-6_4-64_virtualbox.box"
+            "output": "centos-6_5-64_virtualbox.box"
         }
     ]
 }
